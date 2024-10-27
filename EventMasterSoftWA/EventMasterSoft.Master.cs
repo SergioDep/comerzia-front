@@ -11,7 +11,11 @@ namespace EventMasterSoftWA
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.Url.AbsolutePath.EndsWith("Login.aspx")) // Cambia "Login.aspx" al nombre de tu página de login
+            {
+                mainNavbar.Visible = false;
+                sidebar.Visible = false;
+            }
         }
     }
 }

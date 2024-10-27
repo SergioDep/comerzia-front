@@ -21,7 +21,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav id="mainNavbar" runat="server" class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#"><i class="fas fa-home"></i> Comerzia</a>
                 <div class="ml-auto">
                     <span>Admin1</span>
@@ -29,7 +29,7 @@
                 </div>
             </nav>
             <div class="row">
-                <aside class="col-md-2 bg-light p-3">
+                <aside id="sidebar" runat="server" class="col-md-2 bg-light p-3">
                     <!-- Menú lateral -->
                     <ul class="nav flex-column">
                         <li class="nav-item">
