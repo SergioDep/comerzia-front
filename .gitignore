@@ -1,0 +1,103 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated_Code/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# IIS Express settings
+/.vs/iisexpress/
+
+# Web application published outputs
+*.Publish.xml
+.publish/
+publish/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if using .NET Core or .NET Standard
+**/packages/*
+
+# Microsoft Azure Web App publish settings
+*.PublishSettings
+
+# User secrets (ASP.NET Core)
+secrets.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Logs
+*.log
+*.tlog
+*.log1
+*.log2
+
+# Web.config transforms (optional: include if you use transform files for debugging or release builds)
+*.Debug.config
+*.Release.config
+
+# Resharper files
+_ReSharper*/
+*.ReSharper
+
+# JetBrains Rider files
+.idea/
+
+# Code Coverage Results
+*.coverage
+*.coveragexml
+_Reports/
+
+# NCrunch
+_NCrunch_*
+.*crunch*
+
+# Others
+*.DS_Store
+*.log
