@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="EventMasterSoftWA.EventMasterSoft" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Fonts/css/fontawesome.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+            <nav id="mainNavbar" runat="server" class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><i class="fas fa-home"></i> Comerzia</a>
+                <div class="ml-auto">
+                    <span>Admin1</span>
+                    <button type="button" class="btn btn-primary">Notifications</button>
+                </div>
+            </nav>
+            <div class="row">
+                <aside id="sidebar" runat="server" class="col-md-2 bg-light p-3">
+                    <!-- Menú lateral -->
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ventas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Almacén</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recursos Humanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reportes</a>
+                        </li>
+                    </ul>
+                </aside>
+                <main class="col-md-10 w-100">
+                    <!-- Aquí puedes agregar el contenido dinámico -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </main>
+            </div>
+            <footer class="text-center mt-4">
+                <p>© Comerzia</p>
+            </footer>
+        </div>
+    </form>
+</body>
+
+</html>

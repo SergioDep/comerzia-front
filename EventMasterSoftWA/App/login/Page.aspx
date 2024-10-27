@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EventMasterSoft.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="EventMasterSoftWA.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App/Layout.Master" AutoEventWireup="true" CodeBehind="Page.aspx.cs" Inherits="EventMasterSoftWA.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Aquí puedes agregar estilos o scripts específicos para esta página -->

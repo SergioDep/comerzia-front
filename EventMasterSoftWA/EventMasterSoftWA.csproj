@@ -122,7 +122,6 @@
     <Content Include="Content\Fonts\webfonts\fa-thin-100.woff2" />
     <Content Include="Content\Fonts\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Content\Fonts\webfonts\fa-v4compatibility.woff2" />
-    <Content Include="EventMasterSoft.Master" />
     <Content Include="Images\Comerzia.jpg" />
     <Content Include="Images\Logo.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -153,7 +152,8 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="Login.aspx" />
+    <Content Include="App\login\Page.aspx" />
+    <Content Include="App\Layout.Master" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -162,20 +162,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EventMasterSoft.Master.cs">
-      <DependentUpon>EventMasterSoft.Master</DependentUpon>
+    <Compile Include="App\Layout.Master.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EventMasterSoft.Master.designer.cs">
-      <DependentUpon>EventMasterSoft.Master</DependentUpon>
+    <Compile Include="App\Layout.Master.designer.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="App\login\Page.aspx.cs">
+      <DependentUpon>Page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="App\login\Page.aspx.designer.cs">
+      <DependentUpon>Page.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
