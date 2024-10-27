@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace EventMasterSoftWA.App.login
+namespace EventMasterSoftWA.App.ventas
 {
     public partial class Page : System.Web.UI.Page
     {

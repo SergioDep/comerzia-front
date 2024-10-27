@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App/Layout.Master" AutoEventWireup="true" CodeBehind="Page.aspx.cs" Inherits="EventMasterSoftWA.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App/Layout.Master" AutoEventWireup="true" CodeBehind="Page.aspx.cs" Inherits="EventMasterSoftWA.App.login.Page" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Aquí puedes agregar estilos o scripts específicos para esta página -->
@@ -29,7 +29,7 @@
     <div class="container d-flex justify-content-center align-items-center vh-100">
         <div class="text-center login-container">
             <!-- Imagen y título -->
-            <img src="/Images/Comerzia.jpg" alt="Comerzia Logo" class="mb-4 logo-img" />
+            <img src="/public/Images/Comerzia.jpg" alt="Comerzia Logo" class="mb-4 logo-img" />
             
 
 
