@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EventMasterSoftWA.App.login.something
+namespace EventMasterSoftWA.App.ventas._userId_
 {
 
 

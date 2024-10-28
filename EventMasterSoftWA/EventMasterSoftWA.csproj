@@ -61,9 +61,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\login\something\Page.aspx" />
     <Content Include="App\Page.aspx" />
     <Content Include="App\ventas\Page.aspx" />
+    <Content Include="App\ventas\[userId]\Page.aspx" />
     <Content Include="App\_404.aspx" />
     <Content Include="public\Content\bootstrap-grid.css" />
     <Content Include="public\Content\bootstrap-grid.min.css" />
@@ -167,13 +167,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App\login\something\Page.aspx.cs">
-      <DependentUpon>Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App\login\something\Page.aspx.designer.cs">
-      <DependentUpon>Page.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App\Page.aspx.cs">
       <DependentUpon>Page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -195,6 +188,13 @@
     <Compile Include="App\ventas\Page.aspx.designer.cs">
       <DependentUpon>Page.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App\ventas\[userId]\Page.aspx.cs">
+      <DependentUpon>Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\ventas\[userId]\Page.aspx.designer.cs">
+      <DependentUpon>Page.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App\_404.aspx.cs">
       <DependentUpon>_404.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -202,6 +202,9 @@
     <Compile Include="App\_404.aspx.designer.cs">
       <DependentUpon>_404.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AuthConfig.cs" />
+    <Compile Include="AuthMiddleware.cs" />
+    <Compile Include="CustomRouteHandler.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
